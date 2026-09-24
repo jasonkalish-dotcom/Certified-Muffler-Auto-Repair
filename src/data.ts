@@ -53,18 +53,38 @@ export const photos = {
     src: 'images/blue-dual-tips.jpg',
     alt: 'Close-up of burnt-blue dual exhaust tips',
   },
+  purpleAccordQuadTips: {
+    src: 'images/purple-accord-quad-tips.webp',
+    alt: 'Purple Honda Accord with LED tail lights and four black exhaust tips in the shop',
+  },
+  weldingExhaust: {
+    src: 'images/welding-exhaust.webp',
+    alt: 'Mechanic welding a new exhaust pipe under a car on the lift, sparks flying',
+  },
+  yPipeUnderside: {
+    src: 'images/y-pipe-underside.jpg',
+    alt: 'Underside view of an exhaust Y-pipe and catalytic converter',
+  },
+  miniOilChange: {
+    src: 'images/mini-oil-change.jpg',
+    alt: 'Red Mini Cooper on the lift with Mobil oil ready for an oil change',
+  },
 } satisfies Record<string, Photo>;
 
 // Photos shown in the Gallery section (and the scrolling photo rows).
 // To add a photo: put the file in the images/ folder, add a line below,
 // then run `npm run build` to update index.html.
 export const gallery: Photo[] = [
+  photos.weldingExhaust,
+  photos.purpleAccordQuadTips,
   photos.supraOnLift,
   photos.blueDualTips,
   photos.exhaustUnderside,
   photos.challengerHoodUp,
+  photos.miniOilChange,
   photos.durangoQuadTips,
   photos.dualExhaustUnderside,
+  photos.yPipeUnderside,
   photos.mufflerWall,
   photos.catHeatShield,
   // { src: 'images/your-new-photo.jpg', alt: 'Short description of the photo' },
