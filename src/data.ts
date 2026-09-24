@@ -8,8 +8,6 @@ export const business = {
   plusCode: '283R+P7 Port Chester, New York',
   phoneDisplay: '(914) 939-4632',
   phoneHref: 'tel:+19149394632',
-  website: 'https://certifiedmufflerauto.com',
-  websiteDisplay: 'certifiedmufflerauto.com',
   closesAt: '5:30 PM',
   mapsHref:
     'https://www.google.com/maps/search/?api=1&query=Certified+Muffler+and+Auto+Repair+9+Mill+St+Port+Chester+NY+10573',

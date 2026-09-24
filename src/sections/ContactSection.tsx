@@ -1,4 +1,4 @@
-import { Clock, Globe, MapPin, Navigation, Phone, Star } from 'lucide-react';
+import { Clock, MapPin, Navigation, Phone, Star } from 'lucide-react';
 import FadeIn from '../components/FadeIn';
 import ContactButton from '../components/ContactButton';
 import LiveProjectButton from '../components/LiveProjectButton';
@@ -24,13 +24,6 @@ const details = [
     label: 'Hours',
     value: `Closes ${business.closesAt}`,
     sub: 'Call ahead to confirm today’s hours',
-  },
-  {
-    icon: Globe,
-    label: 'Website',
-    value: business.websiteDisplay,
-    sub: 'Our main website',
-    href: business.website,
   },
 ];
 

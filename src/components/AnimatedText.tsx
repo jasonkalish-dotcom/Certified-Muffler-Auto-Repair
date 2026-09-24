@@ -32,7 +32,8 @@ export default function AnimatedText({ text, className, style }: AnimatedTextPro
   const ref = useRef<HTMLParagraphElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ['start 0.8', 'end 0.2'],
+    // Fully lit by the time the paragraph's last line is ~60% down the screen.
+    offset: ['start 0.95', 'end 0.6'],
   });
 
   const words = text.split(' ');
