@@ -1,14 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
-import { photos, type Photo } from '../data';
-
-const all = Object.values(photos);
+import { gallery as all, type Photo } from '../data';
 
 // Cycle the shop photos so neighbouring tiles never repeat.
 const cycle = (count: number, start: number): Photo[] =>
   Array.from({ length: count }, (_, i) => all[(start + i) % all.length]);
 
 const row1 = cycle(11, 0);
-const row2 = cycle(10, 2);
+const row2 = cycle(10, Math.ceil(all.length / 2));
 
 function Row({ images, transform }: { images: Photo[]; transform: string }) {
   const tripled = [...images, ...images, ...images];

@@ -2,7 +2,7 @@ import HeroSection from './sections/HeroSection';
 import MarqueeSection from './sections/MarqueeSection';
 import AboutSection from './sections/AboutSection';
 import ServicesSection from './sections/ServicesSection';
-import ProjectsSection from './sections/ProjectsSection';
+import GallerySection from './sections/GallerySection';
 import ContactSection from './sections/ContactSection';
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
       <MarqueeSection />
       <AboutSection />
       <ServicesSection />
-      <ProjectsSection />
+      <GallerySection />
       <ContactSection />
     </main>
   );
