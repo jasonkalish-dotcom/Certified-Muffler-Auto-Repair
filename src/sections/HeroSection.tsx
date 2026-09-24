@@ -8,6 +8,7 @@ const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Services', href: '#services' },
   { label: 'Gallery', href: '#gallery' },
+  { label: 'Book', href: '#book' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -20,7 +21,7 @@ export default function HeroSection() {
             <li key={link.label}>
               <a
                 href={link.href}
-                className="text-sm font-medium uppercase tracking-wider text-[#D7E2EA] transition-opacity duration-200 hover:opacity-70 md:text-lg lg:text-[1.4rem]"
+                className="text-xs font-medium uppercase tracking-wider text-[#D7E2EA] transition-opacity duration-200 hover:opacity-70 min-[380px]:text-sm md:text-lg lg:text-[1.4rem]"
               >
                 {link.label}
               </a>

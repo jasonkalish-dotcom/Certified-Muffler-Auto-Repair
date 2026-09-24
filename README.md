@@ -25,5 +25,13 @@ npm run build    # rebuild index.html after making changes
 - Business details (phone, address, rating, links) live in `src/data.ts`.
 - **Adding gallery photos:** copy the photo into `images/`, add a line for it to the
   `gallery` list in `src/data.ts`, then run `npm run build`.
+- **Online booking:** set where booking requests go in the `booking` block of
+  `src/data.ts`, then run `npm run build`:
+  - `formEndpoint`: create a free form at [formspree.io](https://formspree.io) using the
+    shop's email and paste its URL (e.g. `https://formspree.io/f/abcdwxyz`). Requests are
+    emailed to the shop automatically. Recommended.
+  - `email`: the visitor's own email app opens with the request filled in, addressed to
+    the shop, and they press Send.
+  - Neither set: visitors see a summary of their request and are asked to call.
 - Shop photos live in `images/`. Replace them with higher-resolution originals using the
   same filenames for sharper results.

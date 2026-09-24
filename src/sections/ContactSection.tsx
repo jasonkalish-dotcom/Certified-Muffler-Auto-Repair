@@ -29,7 +29,7 @@ const details = [
     icon: Globe,
     label: 'Website',
     value: business.websiteDisplay,
-    sub: 'Book online',
+    sub: 'Our main website',
     href: business.website,
   },
 ];
@@ -38,7 +38,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="relative z-10 bg-[#0C0C0C] px-5 pb-16 pt-10 sm:px-8 md:px-10 md:pb-20"
+      className="relative z-10 -mt-10 rounded-t-[40px] bg-[#0C0C0C] px-5 pb-16 pt-20 sm:-mt-12 sm:rounded-t-[50px] sm:px-8 sm:pt-24 md:-mt-14 md:rounded-t-[60px] md:px-10 md:pb-20 md:pt-32"
     >
       <div className="mx-auto max-w-6xl">
         <FadeIn
@@ -136,7 +136,7 @@ export default function ContactSection() {
           <span>
             © {new Date().getFullYear()} {business.name}
           </span>
-          <LiveProjectButton label="Book Online" href={business.website} external />
+          <LiveProjectButton label="Book Online" href="#book" />
         </footer>
       </div>
     </section>

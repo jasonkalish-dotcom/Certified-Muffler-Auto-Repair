@@ -1,32 +1,5 @@
 import FadeIn from '../components/FadeIn';
-
-const services = [
-  {
-    name: 'Mufflers & Exhaust',
-    description:
-      'Repair and replacement of mufflers, pipes, hangers, and gaskets. We track down leaks, rattles, and drones so your car runs quiet again.',
-  },
-  {
-    name: 'Custom & Performance Exhaust',
-    description:
-      'Cat-back systems, dual exhaust conversions, and polished tips, bent and welded in-house to fit your car and the sound you want.',
-  },
-  {
-    name: 'Catalytic Converters',
-    description:
-      'Diagnosis and replacement of failed or stolen converters, with heat shields and O2 sensors checked so you pass emissions.',
-  },
-  {
-    name: 'Diagnostics',
-    description:
-      'Check-engine lights, strange noises, and drivability problems found fast, with a straight explanation before any work starts.',
-  },
-  {
-    name: 'General Auto Repair',
-    description:
-      'Brakes, suspension, and everyday maintenance handled by the same team that already knows your car from the bottom up.',
-  },
-];
+import { services } from '../data';
 
 export default function ServicesSection() {
   return (
