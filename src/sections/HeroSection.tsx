@@ -78,9 +78,9 @@ export default function HeroSection() {
           >
             <div className="relative overflow-hidden rounded-[40px] border-2 border-[#D7E2EA]/40 sm:rounded-b-none sm:rounded-t-[60px] sm:border-b-0">
               <img
-                src={photos.supraOnLift.src}
-                alt={photos.supraOnLift.alt}
-                className="block aspect-[202/270] max-h-[62vh] w-full object-cover"
+                src={photos.weldingExhaust.src}
+                alt={photos.weldingExhaust.alt}
+                className="block aspect-[3/4] max-h-[62vh] w-full object-cover"
                 draggable={false}
               />
               <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-[#0C0C0C]/80 to-transparent" />
