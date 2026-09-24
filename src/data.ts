@@ -17,23 +17,23 @@ export const business = {
 
 export const photos = {
   exhaustUnderside: {
-    src: '/images/exhaust-underside.jpg',
+    src: 'images/exhaust-underside.jpg',
     alt: 'Dual stainless exhaust with blue-tipped pipes seen from under a car on the lift',
   },
   supraOnLift: {
-    src: '/images/supra-on-lift.jpg',
+    src: 'images/supra-on-lift.jpg',
     alt: 'Toyota GR Supra on a lift inside the Certified Muffler shop',
   },
   durangoQuadTips: {
-    src: '/images/durango-quad-tips.jpg',
+    src: 'images/durango-quad-tips.jpg',
     alt: 'Rear of a black Dodge Durango showing quad exhaust tips',
   },
   catHeatShield: {
-    src: '/images/cat-heat-shield.jpg',
+    src: 'images/cat-heat-shield.jpg',
     alt: 'Underbody view of catalytic converters, heat shield and exhaust piping',
   },
   mufflerWall: {
-    src: '/images/muffler-wall.jpg',
+    src: 'images/muffler-wall.jpg',
     alt: 'Shop wall stocked with exhaust tips, hose clamps and mufflers',
   },
 };
